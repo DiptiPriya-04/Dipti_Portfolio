@@ -72,14 +72,15 @@ const Projects = () => {
               </div>
               
               <div className="project-links">
-                <a href={project.githubLink} className="project-link" aria-label="GitHub Repository">
-                  <Code size={20} />
-                  <span>Code</span>
-                </a>
-                {/* Optional external link */}
-                <a href="#" className="project-link" aria-label="Live Demo">
+                <a 
+                  href={project.githubLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="project-link" 
+                  aria-label="View Repository"
+                >
+                  <span>View Repository</span>
                   <ExternalLink size={20} />
-                  <span>Live</span>
                 </a>
               </div>
             </motion.div>
