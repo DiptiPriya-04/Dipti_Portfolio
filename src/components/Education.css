@@ -1,0 +1,97 @@
+.edu-cert-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .edu-cert-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.column-header h3 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.icon-accent {
+  color: var(--accent-primary);
+}
+
+.edu-card {
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.degree {
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.institution {
+  font-size: 1.1rem;
+  color: var(--accent-secondary);
+  margin-bottom: 1rem;
+}
+
+.edu-details {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.year, .grade {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+}
+
+.grade {
+  border-color: rgba(16, 185, 129, 0.3);
+  color: #10b981;
+}
+
+.edu-desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.cert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cert-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid var(--accent-primary);
+}
+
+.cert-card h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.3rem;
+}
+
+.cert-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}

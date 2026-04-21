@@ -1,0 +1,69 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.project-content {
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.project-desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tech-badge {
+  background: rgba(139, 92, 246, 0.1);
+  color: var(--accent-primary);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.project-links {
+  display: flex;
+  padding: 1.5rem 2rem;
+  border-top: 1px solid var(--border-color);
+  gap: 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.project-link:hover {
+  color: var(--accent-primary);
+}
