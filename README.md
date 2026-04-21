@@ -1,4 +1,4 @@
-# Dipti Priya - Developer Portfolio
+# Dipti_Portfolio
 
 Welcome to my personal developer portfolio! This repository contains the source code for my portfolio website, designed to showcase my technical skills, experience, and projects.
 
