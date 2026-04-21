@@ -27,7 +27,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
           >
-            Dipti Priya.
+            Dipti Priya
           </motion.h1>
           
           <motion.h3 
