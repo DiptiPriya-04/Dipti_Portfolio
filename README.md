@@ -3,7 +3,7 @@
 Welcome to my personal developer portfolio! This repository contains the source code for my portfolio website, designed to showcase my technical skills, experience, and projects.
 
 ## 🚀 Live Demo
-**[View the Live Portfolio Here](https://dipti-portfolio.vercel.app)** *(Replace with your actual Vercel URL)*
+https://dipti-portfolio-eight.vercel.app/
 
 ## ✨ Features
 - **Modern UI/UX**: Designed with glassmorphism and a sleek dark theme.
