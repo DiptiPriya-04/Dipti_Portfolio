@@ -1,40 +1,29 @@
-# Dipti_Portfolio
+# Dipti Priya - Developer Portfolio
 
-Welcome to my personal developer portfolio! This repository contains the source code for my portfolio website, designed to showcase my technical skills, experience, and projects.
+Welcome to my personal developer portfolio! This repository contains the source code for my portfolio website, which I built to showcase my technical skills, professional experience, and featured projects.
 
-## 🚀 Live Demo
-https://dipti-portfolio-eight.vercel.app/
+## 🚀 Live Website
+**[View My Portfolio Live Here](https://dipti-portfolio.vercel.app)** *(Make sure to replace this with your actual Vercel URL if it's different!)*
 
-## ✨ Features
-- **Modern UI/UX**: Designed with glassmorphism and a sleek dark theme.
-- **Light/Dark Mode**: Seamless theme toggling.
-- **Smooth Animations**: Powered by `framer-motion` for engaging scroll and entry effects.
-- **Fully Responsive**: Optimized for desktops, tablets, and mobile devices.
+## 🎯 About The Project
+As an aspiring Software Developer with a strong passion for backend systems and AI-powered solutions, I wanted a modern, fast, and interactive way to present my resume to recruiters and peers. 
 
-## 🛠️ Tech Stack
-- **Framework**: React.js (via Vite)
-- **Styling**: Vanilla CSS with CSS Variables
-- **Icons**: Lucide React
-- **Animations**: Framer Motion
-- **Deployment**: Vercel
+I built this single-page application from scratch using **React.js** and **Vite** to ensure extremely fast load times.
 
-## 💻 Running Locally
+## ✨ Key Features
+- **Modern Developer Aesthetic**: Designed with sleek glassmorphism effects and a deep dark theme.
+- **Light/Dark Mode**: A fully functional theme toggle that seamlessly switches the color palette.
+- **Dynamic Animations**: Integrated `framer-motion` for engaging scroll animations and smooth component entrances.
+- **Responsive Design**: Carefully optimized to look perfect on desktops, tablets, and mobile phones.
 
-To run this project on your local machine:
+## 🛠️ Built With
+- **React.js & Vite**
+- **Vanilla CSS** (Custom CSS Variables for theming)
+- **Framer Motion** (Animations)
+- **Lucide React** (Icons)
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/DiptiPriya-04/Dipti_Portfolio.git
-   ```
-2. **Navigate to the directory:**
-   ```bash
-   cd Dipti_Portfolio
-   ```
-3. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-4. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
+## 📫 Get In Touch
+I am always open to discussing new opportunities, collaborations, or just talking about tech!
+- **Email**: [diptipriya657@gmail.com](mailto:diptipriya657@gmail.com)
+- **LinkedIn**: [Dipti Priya](https://www.linkedin.com/in/dipti-priya-a314302b1/)
+- **LeetCode**: [Dipti_04](https://leetcode.com/u/Dipti_04/)
