@@ -18,7 +18,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            Hi, I'm
+            Hare Krishna, I'm
           </motion.h2>
           
           <motion.h1 
