@@ -6,13 +6,13 @@ const Hero = () => {
   return (
     <section id="hero" className="hero-section">
       <div className="container hero-container">
-        <motion.div 
+        <motion.div
           className="hero-content"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <motion.h2 
+          <motion.h2
             className="greeting"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -20,8 +20,8 @@ const Hero = () => {
           >
             Hare Krishna, I'm
           </motion.h2>
-          
-          <motion.h1 
+
+          <motion.h1
             className="name-title"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -29,18 +29,18 @@ const Hero = () => {
           >
             Dipti Priya
           </motion.h1>
-          
-          <motion.h3 
+
+          <motion.h3
             className="subtitle"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
           >
-            Aspiring Software Developer <br/>
+            Aspiring Software Developer <br />
             <span className="highlight">| Backend Enthusiast</span>
           </motion.h3>
-          
-          <motion.p 
+
+          <motion.p
             className="hero-description"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -48,8 +48,8 @@ const Hero = () => {
           >
             Passionate about building scalable systems, solving problems, and exploring AI-powered solutions.
           </motion.p>
-          
-          <motion.div 
+
+          <motion.div
             className="hero-buttons"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -57,6 +57,9 @@ const Hero = () => {
           >
             <a href="#projects" className="btn btn-primary">
               View Projects <ArrowRight size={18} />
+            </a>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary glass">
+              <Download size={18} /> Resume
             </a>
             <a href="#contact" className="btn btn-secondary glass">
               Contact Me
