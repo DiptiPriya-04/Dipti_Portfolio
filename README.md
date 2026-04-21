@@ -1,4 +1,4 @@
-# Dipti Priya - Developer Portfolio
+# Portfolio
 
 Welcome to my personal developer portfolio! This repository contains the source code for my portfolio website, which I built to showcase my technical skills, professional experience, and featured projects.
 
@@ -26,4 +26,3 @@ I built this single-page application from scratch using **React.js** and **Vite*
 I am always open to discussing new opportunities, collaborations, or just talking about tech!
 - **Email**: [diptipriya657@gmail.com](mailto:diptipriya657@gmail.com)
 - **LinkedIn**: [Dipti Priya](https://www.linkedin.com/in/dipti-priya-a314302b1/)
-- **LeetCode**: [Dipti_04](https://leetcode.com/u/Dipti_04/)
