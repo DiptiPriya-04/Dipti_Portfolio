@@ -38,8 +38,3 @@ To run this project on your local machine:
    ```bash
    npm run dev
    ```
-
-## 📫 Contact
-- **Email**: [diptipriya657@gmail.com](mailto:diptipriya657@gmail.com)
-- **LinkedIn**: [Dipti Priya](https://www.linkedin.com/in/dipti-priya-a314302b1/)
-- **GitHub**: [DiptiPriya-04](https://github.com/DiptiPriya-04)
