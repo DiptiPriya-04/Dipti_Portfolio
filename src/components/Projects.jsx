@@ -14,13 +14,13 @@ const Projects = () => {
       title: 'GenAI Customer Support Auditor',
       description: 'Contributed to AI system for analyzing customer conversations. Implemented sentiment analysis and feedback automation.',
       techStack: ['Generative AI', 'APIs'],
-      githubLink: 'https://github.com/DiptiPriya-04'
+      githubLink: 'https://github.com/GenAI-Audit-Systems/Gen_AI_Customer_Support_Quality_Auditor'
     },
     {
       title: 'Guess Number Game',
       description: 'Interactive web game with real-time feedback. Includes validation and dynamic UI.',
       techStack: ['JavaScript', 'HTML', 'CSS'],
-      githubLink: 'https://github.com/DiptiPriya-04'
+      githubLink: 'https://github.com/DiptiPriya-04/Learn-JS'
     }
   ];
 
@@ -46,8 +46,8 @@ const Projects = () => {
         <h2 className="section-title">
           <span>Featured Projects</span>
         </h2>
-        
-        <motion.div 
+
+        <motion.div
           className="projects-grid"
           variants={containerVariants}
           initial="hidden"
@@ -55,7 +55,7 @@ const Projects = () => {
           viewport={{ once: true, margin: "-100px" }}
         >
           {projects.map((project, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               className="project-card glass hover-lift"
               variants={itemVariants}
@@ -63,20 +63,20 @@ const Projects = () => {
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-desc">{project.description}</p>
-                
+
                 <div className="tech-stack">
                   {project.techStack.map((tech, idx) => (
                     <span key={idx} className="tech-badge">{tech}</span>
                   ))}
                 </div>
               </div>
-              
+
               <div className="project-links">
-                <a 
-                  href={project.githubLink} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="project-link" 
+                <a
+                  href={project.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
                   aria-label="View Repository"
                 >
                   <span>View Repository</span>
